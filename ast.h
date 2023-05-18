@@ -32,7 +32,6 @@ struct astNode {
             collector->push_back(astMemory((T*)data));
         return data;
     }
-private:
     void *operator new(size_t);
     void operator delete(void *);
 };
